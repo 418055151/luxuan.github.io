@@ -1,0 +1,30 @@
+<!--热门课程排行榜-->
+<ul class="courselist">
+    {{#each this}}
+    <li class="main-3-2 clearfix">
+        <div class="main-3-2-7">
+            <span class="main-3-2-8">{{number @index}}</span>
+            <img src="{{image}}">
+        </div>
+        <div class="main-3-2-2">
+            <h4 title="{{title}}">{{title}}</h4>
+            <div class="clearfix course-card-bottom">
+                <div class="course-card-info">
+                    <ul class="breadcrumb">
+                        <li><i class="icon-thumbs-up"></i><span>0</span></li>
+                        <li><i class="icon-thumbs-down"></i><span>0</span></li>
+                    </ul>
+                </div>
+                <div class="course-card-price"><i class="icon-user"></i><span class="lorder">661</span></div>
+                <span class="course-star-box">
+                        <i class="icon-star on"></i>
+                        <i class="icon-star on"></i>
+                        <i class="icon-star on"></i>
+                        <i class="icon-star on"></i>
+                        <i class="icon-star on"></i>
+                    </span>
+            </div>
+        </div>
+    </li>
+    {{/each}}
+</ul>

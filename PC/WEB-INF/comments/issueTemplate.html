@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问题列表</title>
+</head>
+<body>
+{{#each this}}
+<ul class="issue-box">
+    <li class="issue-item clearfix">
+        <div class="issue-content l">
+            <p class="issue-title"><a href="showComments.html" target="_blank" title="{{title}}">{{title}}</a></p>
+            <p class="issue-desc" title="{{title}}{{subtitle}}{{title}}{{subtitle}}{{title}}">{{title}}{{subtitle}}{{title}}{{subtitle}}{{title}}</p>
+            <div class="detail-box clearfix">
+                <div class="left-detail l">
+                    <span class="join" title="19人参与回答"><i class="icon-comment-alt"></i>19</span>
+                    <span class="look" title="浏览量"><i class="icon-eye-open"></i>&nbsp;{{lorder}}</span>
+                    <div>
+                        <span class="join">2017-11-27 17:15:41</span>
+                    </div>
+                </div>
+                <div class="right-guest r js-usercard-box">
+                    <div class="l itemcontent">
+                        <p class="itemheader">qq_欧妮酱_0</p>
+                        <p class="itemlongtext">部门：华南区域中心</p>
+                    </div>
+                    <div class="guest-box l">
+                        <a href="//www.imooc.com/u/1352822/bbs" target="_blank" class="l guest ">
+                            <img class="js-usercard-dialog" data-userid="1352822" src="{{image}}" alt="qq_欧妮酱_0">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+{{/each}}
+</body>
+</html>

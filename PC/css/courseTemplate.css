@@ -1,0 +1,192 @@
+/*课程排行*/
+
+.hot-ques{
+    margin-bottom: 30px;
+}
+.hot-ques .title {
+    font-size: 16px;
+    color: #14191e;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+#courselist{
+    margin-top: 5px;
+}
+#courselist ul.courselist{
+    height: 505px;
+    overflow: hidden;
+}
+.main-3-2{
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 1px solid #d3d6d7;
+    background: rgb(254, 253, 255);
+}
+.main-3-2-7{
+    width: 110px;
+    height: 70px;
+    float: left;
+    position: relative;
+}
+.main-3-2-7 img{
+    width: 100%;
+    height: 100%;
+}
+.main-3-2-8 {
+    position: absolute;
+    top: -6px;
+    left: 5px;
+    color: #fff;
+    font-size: 1px;
+    z-index: 10;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #c0c0c0;
+}
+.main-3-2 span.main-3-2-2 {
+    width: 235px;
+    height: 108px;
+    float: left;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.main-3-2 h4 {
+    cursor: pointer;
+    padding-left: 10px;
+    line-height: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3c3c3c;
+    display: inline-block;
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main-3-2 h4:hover{
+    text-decoration: underline;
+    color: rgba(60, 60, 60, 0.6);
+    cursor: pointer;
+}
+
+.course-card-bottom {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin: 5px auto 3px;
+}
+.course-card-info {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #93999f;
+    line-height: 24px;
+    display: inline-block;
+    margin: 0;
+}
+.course-card-price {
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+}
+.course-star-box {
+    float: right;
+    color: rgba(255,153,0,.4);
+    margin-right: 10px;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.course-card-info .breadcrumb {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.course-card-info .breadcrumb i {
+    font-weight: bolder;
+    color: #4398ed;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.breadcrumb span {
+    font: 12px/22px 'Microsoft YaHei';
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.course-card-price .icon-user {
+}
+.course-card-price span {
+    font-size: 12px;
+    color: #93999F;
+}
+.course-star-box{
+    float: right;
+    color: rgba(255,153,0,.4);
+    margin-right: 0;
+    font-size: 8px;
+}
+.course-star-box .on {
+    font-size: 8px;
+    color: #f90;
+}
+.lyleif {
+    height: 45px;
+    border-bottom: 1px solid #edf1f2;
+    text-align: center;
+    cursor: pointer;
+    color: #b5b9bc;
+    font-size: 14px;
+}
+.lyleif span {
+    margin-top: 10px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: rgba(60, 60, 60, 0.6);;
+    font-size: 12px;
+    font-weight: bold;
+}
+.lyleif:hover{
+    background: #e6eaec;
+}
+.lyleif:hover span{
+    color: #3c3c3c;
+}
+.main-3-2:nth-child(1) .main-3-2-8,.main-3-2:nth-child(2) .main-3-2-8,.main-3-2:nth-child(3) .main-3-2-8{
+    border: none;
+    line-height: 30px;
+    font-weight: 100;
+    top: -10px;
+    left: -2px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.main-3-2:nth-child(1) .main-3-2-8{
+    background: url(../images/no1.png) no-repeat top center;
+}
+.main-3-2:nth-child(2) .main-3-2-8{
+    background: url(../images/no2.png) no-repeat top center;
+}
+.main-3-2:nth-child(3) .main-3-2-8{
+    background: url(../images/no3.png) no-repeat top center;
+}

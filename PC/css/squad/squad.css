@@ -1,0 +1,195 @@
+header.common-header{
+    position: relative!important;
+    background: url(../../images/c34349b033bba8d.jpg) no-repeat center center!important;
+    background-size: cover!important;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.bannerCont{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 490px;
+}
+.slogan {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    right: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin: -5rem 0 0;
+}
+.slogan {
+    font-family: "Helvetica Light";
+    margin: 0;
+    top: 40%;
+    transform: translateY(-25%);
+}
+.content {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.slogan .content {
+    max-width: 780px;
+}
+.slogan h1 {
+
+    margin: 0;
+    padding: 0;
+}
+.slogan h1 {
+    font-size: 35px;
+    color: #fff;
+    line-height: 1.1666;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: "Helvetica Light";
+}
+.header-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+section.container{
+    background: #edeff0;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.padd-t40{
+    padding-top: 40px;
+}
+.wenda-main{
+    /*background: #fff;*/
+}
+.wenda-main {
+    width: 800px;
+    padding: 0 0 48px;
+    margin-right: 48px;
+}
+.wenda-slider {
+    width: 350px;
+    min-height: 470px;
+}
+.activity_list_item {
+    width: 389px;
+    height: 320px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-bottom: 22px;
+    -webkit-transition: opacity .5s linear,-webkit-transform .3s cubic-bezier(.215,.61,.355,1),-webkit-box-shadow .3s cubic-bezier(.215,.61,.355,1);
+    transition: opacity .5s linear,-webkit-transform .3s cubic-bezier(.215,.61,.355,1),-webkit-box-shadow .3s cubic-bezier(.215,.61,.355,1);
+    -o-transition: transform .3s cubic-bezier(.215,.61,.355,1),box-shadow .3s cubic-bezier(.215,.61,.355,1),opacity .5s linear;
+    transition: transform .3s cubic-bezier(.215,.61,.355,1),box-shadow .3s cubic-bezier(.215,.61,.355,1),opacity .5s linear;
+    transition: transform .3s cubic-bezier(.215,.61,.355,1),box-shadow .3s cubic-bezier(.215,.61,.355,1),opacity .5s linear,-webkit-transform .3s cubic-bezier(.215,.61,.355,1),-webkit-box-shadow .3s cubic-bezier(.215,.61,.355,1);
+
+}
+.activity_list_item:nth-child(odd){
+    float: left;
+}
+.activity_list_item:nth-child(even){
+    float: right;
+}
+
+.activity_img {
+    width: 100%;
+    height: 225px;
+    display: block;
+    overflow: hidden;
+}
+.activity_img img{
+    width: 100%;
+    height: 100%;
+}
+.activity_list_item_row1 {
+    margin-top: 10px;
+}
+.activity_status {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+    background-color: #D1D1D1;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.activity_status_on {
+    background-color: #4C91FF;
+}
+.activity_name {
+    font-size: 18px;
+    color: #333;
+    margin-left: 20px;
+    line-height: 30px;
+    display: inline-block;
+    width: 265px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.activity_name:hover{
+    text-decoration: underline;
+    color: #788087;
+}
+.activity_description {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #b8b6b6;
+}
+.activity_list_item:hover {
+    box-shadow: 0 0 24px 5px #ccc;
+}
+.process-ctn{
+    margin-left: 20px;
+}
+.process-ctn .process-full {
+    width: 270px;
+    height: 5px;
+    background: #a3d2f8;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.process-ctn .process-full .process-done {
+    height: 5px;
+    background: #188eee;
+    width: 0;
+}
+.process-ctn .process-text {
+    font-size: 12px;
+    color: #999;
+}
+
+
+
+
+
+
+
+/*课程排行*/
+.rankingImg{
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 24px 5px #ccc;
+}
+.rankingImg img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}

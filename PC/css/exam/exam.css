@@ -1,0 +1,210 @@
+header.common-header{
+    position: relative!important;
+    background: url(../../images/exam2123.png) no-repeat center center!important;
+    background-size: cover!important;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.bannerCont{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 490px;
+}
+.slogan {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    right: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin: -5rem 0 0;
+}
+.slogan {
+    font-family: "Helvetica Light";
+    margin: 0;
+    top: 40%;
+    transform: translateY(-25%);
+}
+.content {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.slogan .content {
+    max-width: 820px;
+}
+.slogan h1 {
+
+    margin: 0;
+    padding: 0;
+}
+.slogan h1 {
+    font-size: 35px;
+    color: #fff;
+    line-height: 1.1666;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: "Helvetica Light";
+}
+.header-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+section.container {
+    background: #edeff0;
+}
+.padd-t40 {
+    padding-top: 40px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.wenda-main {
+    width: 800px;
+    padding: 0 0 48px;
+    margin-right: 48px;
+    border: 1px solid #dedede;
+    background: #fff;
+    margin-bottom: 70px;
+}
+.wenda-slider {
+    width: 350px;
+    min-height: 470px;
+}
+.nav {
+    border-bottom: 1px solid #D9DDE1;
+    padding: 20px 0 15px;
+    margin: 0 30px;
+}
+.nav a {
+    font-size: 14px;
+    color: #93999F;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 50px;
+}
+.nav a.active {
+    color: #f01414;
+}
+
+.wenda-main ul{
+    padding: 0 30px;
+}
+.item{
+    overflow: hidden;
+    padding: 30px 0;
+    border-bottom: 1px dashed #DEDEDE;
+}
+.item .list-left{
+    width: 195px;
+    height: 115px;
+    float: left;
+    background-size: cover;
+}
+.item .list-left img{
+    width: 100%;
+    height: 100%;
+}
+.item .list-mid {
+    width: 360px;
+    height: 115px;
+    float: left;
+    margin-left: 20px;
+}
+.f18 {
+    font-size: 18px;
+}
+
+.c33 {
+    color: #333333;
+}
+.item .list-mid-mid {
+    margin: 15px 0 15px 0;
+    overflow: hidden;
+}
+.c65 {
+    color: #E64C65;
+}
+.f12 {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.c66 {
+    color: #666666;
+}
+.item .list-right {
+    width: 125px;
+    height: 115px;
+    float: right;
+    position: relative;
+}
+.tr {
+    text-align: right;
+}
+.item .list-right .course-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.btn-65 {
+    min-width: 110px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-gray{
+    background: #DEDEDE;
+}
+.btn-course{
+    background: #4C91FF;
+}
+.btn-course{
+    background: #45d6ec;
+}
+.cour-btn{
+    background: #E64C65;
+}
+.ng-binding{
+    display: block;
+    width: 425px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ng-binding:hover{
+    text-decoration: underline;
+    color: #788087;
+}
+.trim{
+    padding-left: 5px;
+}
+.rankingImg{
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 24px 5px #ccc;
+}
+.rankingImg img{
+    display: none;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 企业大学 - 海量课程 </title>
+    <meta name="description" content="网站SEO描述">
+    <meta name="keywords" content="SEO收搜关键词">
+    <meta name="baidu-site-verification" content="qKSX5MEr35">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <script type="text/javascript" src="../../public/require.js"></script>
+    <script type="text/javascript" src="../../public/curriculum.js"></script>
+    <link rel="shortcut icon" href="http://bonzer.dichanxuetang.com/images/logo-icon.png">
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/loadingPanel.css">
+</head>
+<body>
+<div id="loadingPanel" style="opacity: 1;">
+    <div class="_loading__loading-page___1Ldla" style="opacity: 1;">
+        <div class="_loading__loading-page-detail___3BGux"></div>
+    </div>
+    <div id="loadingGif"></div>
+    <div id="loadingTips">
+        <div id="loadingTipsContent">
+            <div id="fontBlodDiv">hi：</div>
+            欢迎来到企业大学学习平台
+            <p>当前网络有可能会影响到加载速度哦还请耐心等候(*^__^*)……。</p>
+        </div>
+    </div>
+</div>
+<header class="common-header">
+    <ul id="top-nav">
+        <li class="logo">
+            <a class="logo-link" href="javascript:void(0);">
+                <div class="logo-icon"></div>
+            </a>
+        </li>
+        <li>
+            <a class="top-link" href="../index.html"><i class="icon-home"></i> 首页 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../curriculum/curriculum.html"> 海量课程 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../squad/squad.html"> 班级 </a>
+        </li>
+        <li>
+            <a class="top-link hot" href="../exam/exam.html"> 考试 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../CloudStorage/CloudStorage.html"> 网盘 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../comments/comments.html"> 线上讨论 </a>
+        </li>
+        <li class="sign" id="sign-box">
+            <a class="sign-link" id="signin" href="javascript:" rel="nofollow">登录</a>  /  <a class="sign-link" id="signup" href="javascript:" rel="nofollow">申请试用</a>
+        </li>
+        <div class="clearfix" id="userinfo" style="display: none">
+            <div class="user-header">
+                <img src="http://wx.qlogo.cn/mmopen/BKMVGMmthXGjszK1TNyTeQuoWlFM0Dzgz9QA8JQibusGRooll13iaFcthnKbibXya1Yyb7J3zVsicibdz6Ec7Rl012GbsicDuD4Jd6/132?0.6857810917594676">
+            </div>
+            <div class="user-info">™闪开，我要发光</div>
+            <ul class="dropdown-wrapper">
+                <li><a href="javascript:void(0);">我的账号</a></li>
+                <li><a href="javascript:void(0);">我的活动</a></li>
+                <li><a href="javascript:void(0);">我的订单</a></li>
+                <li><a href="javascript:void(0);">邀请朋友</a></li>
+                <li><a href="javascript:void(0);" class="none" id="logoutBtn">退出</a></li>
+            </ul>
+        </div>
+    </ul>
+    <div class="chunjie-ghxx"></div>
+    <div class="bannerCont">
+        <div class="slogan">
+            <div class="content"><h1 class="zh_CN">探索海量课程&nbsp;&nbsp;突破知识瓶颈</h1></div>
+            <div class="searchBox">
+                <div class="searchBoxInner">
+                    <input id="searchInput" type="search" onkeydown="keyDown(event)" name="query" placeholder="请输入关键词" autocomplete="off">
+                    <button type="submit" id="searchSubmit" onclick="queries()"></button>
+                </div>
+            </div>
+            <div class="hot-keywords-box">热门搜索：
+                <a class="hot-key" data-keywords="2018年趋势" href="javascript:void(0);">2018年趋势</a>
+                <a class="hot-key" data-keywords="一带一路" href="javascript:void(0);">一带一路</a>
+                <a class="hot-key" data-keywords="大客户推进案例" href="javascript:void(0);">大客户推进案例</a>
+                <a class="hot-key" data-keywords="人力峰会" href="javascript:void(0);">人力峰会</a>
+                <a class="hot-key" data-keywords="特色小镇" href="javascript:void(0);">特色小镇</a>
+                <a class="hot-key" data-keywords="构建思考力" href="javascript:void(0);">构建思考力</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="container">
+    <div class="wrapper">
+        <div class="course-content">
+            <div class="course-nav-row clearfix">
+                <span class="hd l">方向：</span>
+                <div class="bd">
+                    <ul id="ClassificationNav">
+                        <li class="course-nav-item active" id="all" data-value="0">
+                            <a href="javascript:void(0);" onclick="topClassification(this,'all')">全部</a>
+                        </li>
+                        <li class="course-nav-item" id="Enterprise" data-value="1">
+                            <a href="javascript:void(0);" onclick="topClassification(this,'Enterprise')">住宅地产</a>
+                        </li>
+                        <li class="course-nav-item" id="Trade" data-value="2">
+                            <a href="javascript:void(0);" onclick="topClassification(this,'Trade')">商业地产</a>
+                        </li>
+                        <li class="course-nav-item" id="Control" data-value="3">
+                            <a href="javascript:void(0);" onclick="topClassification(this,'Control')">管理类</a>
+                        </li>
+                        <li class="course-nav-item" id="Other" data-value="4">
+                            <a href="javascript:void(0);" onclick="topClassification(this,'Other')">其他业态</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="course-nav-row clearfix">
+                <span class="hd l">分类：</span>
+                <div class="bd minH">
+                    <ul id="Classification">
+                        <li class="course-nav-item active" data-name="all">
+                            <a href="javascript:void(0);">全部</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="2">
+                            <a href="javascript:void(0);">投融资</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="3">
+                            <a href="javascript:void(0);">前期开发</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="4">
+                            <a href="javascript:void(0);">定位策划</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="5">
+                            <a href="javascript:void(0);">设计管理</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="6">
+                            <a href="javascript:void(0);">成本招采</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="7">
+                            <a href="javascript:void(0);">工程管理</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="8">
+                            <a href="javascript:void(0);">营销管理</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="9">
+                            <a href="javascript:void(0);">营销管理</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Enterprise" data-value="10">
+                            <a href="javascript:void(0);">社区运营</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Trade" data-value="12">
+                            <a href="javascript:void(0);">品牌客服</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Trade" data-value="13">
+                            <a href="javascript:void(0);">定位策划</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Trade" data-value="14">
+                            <a href="javascript:void(0);">设计工程</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Other" data-value="16">
+                            <a href="javascript:void(0);">商业物业</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Other" data-value="17">
+                            <a href="javascript:void(0);">产业地产</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="20">
+                            <a href="javascript:void(0);">战略运营</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="21">
+                            <a href="javascript:void(0);">企业管理</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="22">
+                            <a href="javascript:void(0);">产品线</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="23">
+                            <a href="javascript:void(0);">财务税筹</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="24">
+                            <a href="javascript:void(0);">人力资源</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="25">
+                            <a href="javascript:void(0);">行政会议</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="26">
+                            <a href="javascript:void(0);">信息化</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="27">
+                            <a href="javascript:void(0);">办公技巧</a>
+                        </li>
+                        <li class="course-nav-item" data-name="Control" data-value="28">
+                            <a href="javascript:void(0);">通用管理</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="videoContainer">
+    <div class="wrapper">
+        <div id="courseList"></div>
+        <div id="PagCont"></div>
+    </div>
+</section>
+<div id="Footer"></div>
+<script type="text/x-handlebars-template" id="courseTemplate"></script>
+<script type="text/x-handlebars-template" id="PagContTemplate"></script>
+<script>
+    require(['jquery','curriculum']);
+</script>
+</body>
+</html>

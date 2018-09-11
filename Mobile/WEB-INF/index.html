@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Netease"/>
+    <meta name="version" content="1.0"/>
+    <meta name="keywords" content="关键字"/>
+    <meta name="description" content="网页介绍"/>
+    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=no"/>
+    <link rel="shortcut icon" href="http://bonzer.dichanxuetang.com/images/logo-icon.png">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../font_Corporate_universities_icon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/loadingPanel.css">
+    <script type="text/javascript" src="../javaScript/viewport.js"></script>
+    <style>
+        html,body{
+            background-color: #f7f7f7;
+        }
+        .mui-bar {
+            position: fixed;
+            z-index: 10;
+            right: 0;
+            left: 0;
+            height: 44px;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-bottom: 0;
+            background-color: #03A9F4;
+            backface-visibility: hidden;
+        }
+        .mui-bar-nav {
+            top: 0;
+        }
+        .mui-title {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 44px;
+            position: absolute;
+            display: block;
+            width: 100%;
+            margin: 0 -10px;
+            padding: 0;
+            text-align: center;
+            white-space: nowrap;
+            color: #fff;
+        }
+        .mui-bar .mui-title {
+            right: 40px;
+            left: 40px;
+            display: inline-block;
+            overflow: hidden;
+            width: auto;
+            margin: 0;
+            text-overflow: ellipsis;
+        }
+        .mui-pull-right {
+            float: right;
+        }
+        .iconfont {
+            font-family: Muiicons;
+            font-size: 24px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1;
+            display: inline-block;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+        }
+        .mui-bar .icon {
+            font-size: 24px;
+            position: relative;
+            z-index: 20;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .mui-bar-nav.mui-bar .icon {
+            margin-right: -10px;
+            margin-left: -10px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .mui-bar-nav.mui-bar .icon-xiaoxi{
+            color: #fff;
+            position: relative;
+            font-size: 28px;
+            padding-top: 7px;
+        }
+        .icon-circle{
+            min-width: 10px;
+            text-align: center;
+            line-height: 14px;
+            display: inline-block;
+            position: absolute;
+            right: 9px;
+            top: 9px;
+            background: red;
+            color: #fff;
+            border-radius: 17px;
+            padding: 6px;
+            font-size: 16px;
+            transform: scale(.7);
+        }
+        .corporate-content{
+            padding-top: 44px;
+            padding-bottom: 44px;
+        }
+        .mui-slider{
+            width: 100%;
+            height: 8rem;
+        }
+        .mui-slider img{
+            width: 100%;
+            height: 100%;
+        }
+        .mui-bar-tab{
+            left: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 1);
+            display: -webkit-flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            -webkit-box-shadow: 0 0 1px rgba(166,159,159,.85);
+            box-shadow: 0 0 1px rgba(166,159,159,.85);
+        }
+        .mui-bar-tab .mui-tab-item{
+            display: -webkit-flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+             width: 100%;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+        }
+        .mui-bar-tab .mui-active{
+            color: #03a9f4;
+        }
+        .mui-tab-item .iconfont{
+            font-family: Muiicons;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1;
+            display: inline-block;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+            padding: 0;
+            padding-top: 5px;
+        }
+        .mui-tab-item .mui-tab-label{
+            font-size: 12px;
+            margin-top: -3px;
+        }
+
+        .mui-table-view{
+            font-size: 0;
+            display: block;
+            width: 100%;
+            list-style: none;
+            background-color: #fff;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            -webkit-box-shadow: 0 0 1px rgba(166,159,159,.85);
+            box-shadow: 0 0 1px rgba(166,159,159,.85);
+        }
+        .mui-col-sm-3 {
+            width: 25%;
+        }
+        .mui-table-view-cell {
+            position: relative;
+            overflow: hidden;
+            padding: 11px 15px;
+            -webkit-touch-callout: none;
+        }
+        .mui-media-body {
+            overflow: hidden;
+        }
+        .mui-table-view-cell {
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+        .mui-table-view-cell {
+            font-size: 17px;
+            display: inline-block;
+            text-align: center;
+            background: 0 0;
+            margin: 0;
+            padding: 11px 15px;
+            vertical-align: top;
+            color: #797979;
+        }
+        .mui-table-view-cell>a:not(.mui-btn) {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: -11px -15px;
+            padding: inherit;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color: inherit;
+        }
+        .mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .mui-table-view-cell .mui-media-body {
+            font-size: 12px;
+            line-height: 15px;
+            display: block;
+            width: 100%;
+            height: 15px;
+            margin-top: 8px;
+            text-overflow: ellipsis;
+            color: #292929;
+        }
+        .mui-table-view-cell .iconfont{
+            font-size: 28px;
+            position: relative;
+        }
+        .mui-table-view-cell .icon-new{
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            font-size: 24px;
+            color: #FF7043;
+        }
+        .mui-table-view-cell .icon-circle{
+            top: -4px;
+            right: -4px;
+        }
+        .mui-table-view-cell .icon-jiangbei{
+            background-color: #363436;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .application{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 13px;
+            line-height: 30px;
+            color: #B0B0B0;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+<div id="loadingPanel">
+    <div class="_loading__loading-page___1Ldla" style="opacity: 1;">
+        <div class="_loading__loading-page-detail___3BGux"></div>
+    </div>
+</div>
+<header class="mui-bar mui-bar-nav">
+    <a id="info" class="icon iconfont icon-xiaoxi mui-pull-right">
+        <span class="icon-circle"></span>
+    </a>
+    <h1 class="mui-title">企业大学</h1>
+</header>
+<div class="corporate-content">
+    <div class="mui-slider ">
+        <img src="../images/2cfa2d563434fc845af8a7170163d0058.jpg">
+    </div>
+    <ul class="mui-table-view mui-grid-9">
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-13" style="color: #03A9F4">
+                    <span class="icon-circle"></span>
+                </span>
+                <div class="mui-media-body">我的班级</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-pintu" style="color: #FF9800"></span>
+                <div class="mui-media-body">我的选修</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-icon-kaoshijilu" style="color: #19C594">
+                    <i class="icon iconfont icon-new"></i>
+                </span>
+                <div class="mui-media-body">考试</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-taolun" style="color: #F1745E">
+                    <i class="icon iconfont icon-new"></i>
+                </span>
+                <div class="mui-media-body">讨论</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-hailiangxiansuo" style="color: #5F97F4"></span>
+                <div class="mui-media-body">海量课程</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-kechengbiao" style="color: #9C89B9"></span>
+                <div class="mui-media-body">课程列表</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-tongyongleifenzugongxiang" style="color: #F7B55D"></span>
+                <div class="mui-media-body">共享中心</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-jiangbei" style="color: #DBC714"></span>
+                <div class="mui-media-body">学时排行</div>
+            </a>
+        </li>
+    </ul>
+    <div class="application">线下应用</div>
+    <ul class="mui-table-view mui-grid-9">
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-weixinsaoma" style="color: #8BC34A">
+                </span>
+                <div class="mui-media-body">线下课签到</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-pingfen" style="color: #50AAF0"></span>
+                <div class="mui-media-body">课程打分</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-navicon-tjb" style="color: #F1745E">
+                </span>
+                <div class="mui-media-body">问卷统计</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <a href="javascript:void(0);">
+                <span class="icon iconfont icon-group47" style="color: #349EEB">
+                    <span class="icon-circle"></span>
+                </span>
+                <div class="mui-media-body">进度反馈</div>
+            </a>
+        </li>
+    </ul>
+</div>
+<footer class="mui-bar mui-bar-tab" id="nav">
+    <a id="tab_home" class="mui-tab-item mui-active" >
+        <span class="icon iconfont icon-index" ></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a id="tab_message" class="mui-tab-item">
+        <span class="icon iconfont icon-moban"></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</footer>
+<script src="http://crusader12.com/C12HoverAlls/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loadingPanel').remove();
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+header.common-header{
+    position: relative!important;
+    background: url(../../images/a98eac557e1f.png) no-repeat center center!important;
+    background-size: cover!important;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.bannerCont{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 490px;
+}
+.slogan {
+    position: absolute;
+    top: 40%;
+    left: 1rem;
+    right: 1rem;
+    color: #787878;
+    text-align: center;
+    margin: -5rem 0 0;
+}
+.slogan {
+    font-family: "Helvetica Light";
+    margin: 0;
+    top: 40%;
+    transform: translateY(-25%);
+}
+.content {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.slogan .content {
+    max-width: 580px;
+}
+.slogan h1 {
+
+    margin: 0;
+    padding: 0;
+}
+.slogan h1 {
+    font-size: 32px;
+    line-height: 45px;
+    color: #240101;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: "Helvetica Light";
+}
+
+.searchBox {
+    background: none;
+    border-radius: 6px;
+    position: relative;
+    border: 4px solid rgba(0, 0, 0, 0.05);
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+}
+.searchBoxInner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 6px;
+}
+#searchInput {
+    background-size: 16px 16px;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Light";
+    color: #b3becd;
+    font-size: 14px;
+    line-height: 48px;
+    border: 0 none;
+    background: none;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 55px;
+}
+#searchSubmit {
+    width: 18px;
+    height: 18px;
+    background: url(../../images/shps.png) no-repeat;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 18px;
+    border: 0 none;
+    cursor: pointer;
+}
+
+
+.header-desc {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #787878;
+}
+section.container{
+    background: white;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.padd-t40{
+    padding-top: 40px;
+    padding-bottom: 48px;
+}
+.wenda-main{
+    /*background: #fff;*/
+}
+.wenda-main {
+    width: 800px;
+    padding: 0 0 48px;
+    margin-right: 48px;
+}
+.wenda-slider {
+    width: 350px;
+    min-height: 470px;
+}
+
+
+
+/*课程排行*/
+
+.hot-ques{
+    margin-bottom: 30px;
+}
+.hot-ques .title {
+    font-size: 16px;
+    color: #14191e;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+#courselist{
+    margin-top: 5px;
+}
+#courselist ul.courselist{
+    height: 505px;
+    overflow: hidden;
+}
+.panel-body{
+    padding: 30px 0;
+}
+.panel-body h1 {
+    margin-bottom: 14px;
+    color: #14191e;
+    font-size: 18px;
+    line-height: 42px;
+    word-wrap: break-word;
+}
+.panel-body h1 .icon-warning-sign{
+    padding-right: 10px;
+    color: #feb300;
+}
+.panel-body dd {
+    margin: 12px 0;
+}
+
+
+.sucesspage h2 {
+    height: 78px;
+    line-height: 78px;
+    font-size: 24px;
+}
+.inputques {
+    padding: 4px 0 0;
+}
+.ques-label {
+    float: left;
+    width: 30px;
+    text-align: center;
+    color: #ff9600;
+    font-size: 14px;
+    line-height: 38px;
+    visibility: hidden;
+}
+.inputques .first-label {
+    line-height: 60px;
+}
+.question-area{
+    margin-left: 30px;
+    position: relative;
+}
+.ipt, select.ipt {
+    height: 20px;
+    line-height: 20px;
+}
+.ipt {
+    color: #14191e;
+    background-color: #fff;
+    border: 1px solid #98a1a6;
+    padding: 9px;
+    font-size: 14px;
+    border-radius: 0;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.ipt-error {
+    color: #ec1500;
+    border-color: #ec1500;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.question-area .ipt {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.errortip {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #f01400;
+    clear: both;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+.editor{
+    margin-left: 30px;
+    position: relative;
+    height: 400px;
+}
+.edui-container{
+    box-shadow: none;
+    position: absolute;
+}
+.saveques-bottom{
+    position: relative;
+}
+.link-btn{
+    color: #fff;
+    width: 140px;
+    background-color: #f01400;
+    border-color: #f01400;
+    margin-bottom: 0;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    text-decoration: none;
+    box-sizing: content-box;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+}

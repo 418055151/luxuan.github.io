@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>热门话题</title>
+</head>
+<body>
+<ul class="height">
+    {{#each this}}
+    <li>
+        <p class="content"><a href="../comments/showComments.html" title="{{title}}">{{title}}</a></p>
+        <div class="info-bar clearfix">
+            <a target="_blank" href="javascript:void(0);" class="answer-num"><i class="icon-comment-alt" title="13人参与回答"></i>13</a>
+            <a target="_blank" href="javascript:void(0);" class="follow-num"><i class="icon-eye-open" title="浏览量"></i>0</a>
+            <a target="_blank" href="javascript:void(0);" class="from">来自 qq_欧妮酱_0</a>
+        </div>
+    </li>
+    {{/each}}
+</ul>
+</body>
+</html>

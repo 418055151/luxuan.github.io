@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 企业大学 - 在线讨论 </title>
+    <meta name="description" content="网站SEO描述">
+    <meta name="keywords" content="SEO收搜关键词">
+    <meta name="baidu-site-verification" content="qKSX5MEr35">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <script type="text/javascript" src="../../public/require.js"></script>
+    <script type="text/javascript" src="../../public/comments.js"></script>
+    <link rel="shortcut icon" href="http://bonzer.dichanxuetang.com/images/logo-icon.png">
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/loadingPanel.css">
+</head>
+<body>
+<div id="loadingPanel" style="opacity: 1;">
+    <div class="_loading__loading-page___1Ldla" style="opacity: 1;">
+        <div class="_loading__loading-page-detail___3BGux"></div>
+    </div>
+    <div id="loadingGif"></div>
+    <div id="loadingTips">
+        <div id="loadingTipsContent">
+            <div id="fontBlodDiv">hi：</div>
+            欢迎来到企业大学学习平台
+            <p>当前网络有可能会影响到加载速度哦还请耐心等候(*^__^*)……。</p>
+        </div>
+    </div>
+</div>
+<header class="common-header">
+    <ul id="top-nav">
+        <li class="logo">
+            <a class="logo-link" href="javascript:void(0);">
+                <div class="logo-icon"></div>
+            </a>
+        </li>
+        <li>
+            <a class="top-link" href="../index.html"><i class="icon-home"></i> 首页 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../curriculum/curriculum.html"> 海量课程 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../squad/squad.html"> 班级 </a>
+        </li>
+        <li>
+            <a class="top-link hot" href="../exam/exam.html"> 考试 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../CloudStorage/CloudStorage.html"> 网盘 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../comments/comments.html"> 线上讨论 </a>
+        </li>
+        <li class="sign" id="sign-box">
+            <a class="sign-link" id="signin" href="javascript:" rel="nofollow">登录</a>  /  <a class="sign-link" id="signup" href="javascript:" rel="nofollow">申请试用</a>
+        </li>
+        <div class="clearfix" id="userinfo" style="display: none">
+            <div class="user-header">
+                <img src="http://wx.qlogo.cn/mmopen/BKMVGMmthXGjszK1TNyTeQuoWlFM0Dzgz9QA8JQibusGRooll13iaFcthnKbibXya1Yyb7J3zVsicibdz6Ec7Rl012GbsicDuD4Jd6/132?0.6857810917594676">
+            </div>
+            <div class="user-info">™闪开，我要发光</div>
+            <ul class="dropdown-wrapper">
+                <li><a href="javascript:void(0);">我的账号</a></li>
+                <li><a href="javascript:void(0);">我的活动</a></li>
+                <li><a href="javascript:void(0);">我的订单</a></li>
+                <li><a href="javascript:void(0);">邀请朋友</a></li>
+                <li><a href="javascript:void(0);" class="none" id="logoutBtn">退出</a></li>
+            </ul>
+        </div>
+    </ul>
+    <div class="chunjie-ghxx"></div>
+    <div class="bannerCont">
+        <div class="slogan">
+            <div class="content"><h1 class="zh_CN">问题不在于学到的是怎样的知识</br>而在于所学的知识要有用处</h1></div>
+            <p class="header-desc">分享知识丨交换观念丨交流信息</p>
+            <div class="searchBox">
+                <div class="searchBoxInner">
+                    <input id="searchInput" type="search" onkeydown="keyDown(event)" name="query" placeholder="请输入感兴趣的关键词" autocomplete="off">
+                    <button type="submit" id="searchSubmit" onclick="queries()"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="container clearfix">
+    <div class="wrapper padd-t40 clearfix">
+        <div class="l wenda-main">
+            <div class="nav">
+                <a href="javascript:void (0);">全部</a>
+                <a href="javascript:void (0);" class="active">最新</a>
+                <a href="javascript:void (0);">等待回答</a>
+            </div>
+            <div class="issue-list" id="issuelist"></div>
+            <div id="PagCont"></div>
+        </div>
+        <div class="r wenda-slider">
+            <div class="recommend-info">
+                <div class="aside-author">
+                    <a href="javascript:void(0);" class="l author-img" title="Jeson老师" target="_blank">
+                        <img src="//img3.mukewang.com/5510c7a600016ea802200220-100-100.jpg">
+                    </a>
+                    <p class="u-nick-warp">
+                        <a class="nick" href="javascript:void(0);" title="Jeson老师" target="_blank">
+                            qq_欧妮酱_0
+                        </a>
+                    </p>
+                    <span class="user-job">华南区域中心</span>
+                    <div class="btn-box clearfix">
+                        <a href="javascript:void(0);" target="_blank" class="article-num r-bor l">
+                            <span>54</span>&nbsp;&nbsp;提问
+                        </a>
+                        <a href="javascript:void(0);" target="_blank" class="article-recom l">
+                            <span>14</span>&nbsp;&nbsp;回答
+                        </a>
+                    </div>
+                    <div class="btn-box clearfix">
+                        <a href="Askquestions.html" class="askQuestionsBtn">我要提问<i class="icon-edit"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-ques">
+                <h3 class="title">热门课程</h3>
+                <div id="courselist">
+                </div>
+                <div class="lyleif"><span class="js-lyleif">显示另外5个课程</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="Footer"></div>
+<!--问题列表-->
+<script  type="text/x-handlebars-template" id="issueTemplate"></script>
+<!--热门课程-->
+<script  type="text/x-handlebars-template" id="courseTemplate"></script>
+<!--分页-->
+<script type="text/x-handlebars-template" id="PagContTemplate"></script>
+<script>
+    require(['jquery','comments']);
+</script>
+</body>
+</html>

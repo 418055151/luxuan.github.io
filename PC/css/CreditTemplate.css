@@ -1,0 +1,163 @@
+/*
+学时排行*/
+
+
+.CreditList .height{
+    height: 295px;
+    display: block;
+    overflow: hidden;
+}
+
+.CreditList li.clearfix {
+    line-height: 22px;
+    overflow: hidden;
+    /*background: #fff;*/
+    margin: 10px auto;
+    padding:10px;
+}
+.CreditList li.mag-btm50{
+    margin-bottom: 50px;
+}
+.CreditList .num {
+    width: 22px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #b5b9bc;
+    display: block;
+    float: left;
+}
+.CreditList li:nth-child(1) .num{
+    color: #f8b551;
+}
+.CreditList li:nth-child(2) .num{
+    color: #787d82;
+}
+.CreditList li:nth-child(3) .num{
+    color: #ec6941;
+}
+.CreditList .active .num {
+}
+.CreditList .rank-info {
+    width: 290px;
+    float: left;
+    position: relative;
+}
+.CreditList .active .summary {
+    display: none!important;
+}
+.CreditList li.clearfix .summary {
+    display: block;
+}
+.CreditList .active .detail {
+    display: block!important;
+}
+.CreditList li.clearfix .detail {
+    display: none;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    word-break: normal;
+}
+.CreditList .rank-info .summary .gray3 {
+    width: 70px;
+    color: #8F6C50;
+    float: left;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.CreditList .rank-info .summary .gray9 {
+    color: #B6B6B6;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    width: 143px;
+}
+.CreditList .rank-info .summary .gray12 {
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+.CreditList .rank-info .summary .gray12 .color03 {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    word-break: normal;
+    height: 19px;
+    vertical-align: sub;
+    overflow: hidden;
+}
+.CreditList .rank-info .avatar-wrap {
+    position: relative;
+    cursor: pointer;
+    width: 61px;
+    height: 61px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #c1c1c1;
+    overflow: hidden;
+}
+.fl {
+    float: left;
+}
+.CreditList .rank-info .detail-info {
+    width: 210px;
+    line-height: 22px;
+}
+.CreditList .rank-info .detail-info .text_12 {
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+    padding-top: 15px;
+}
+.CreditList .rank-info .detail-info .poars {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    color: #eb9316;
+    padding: 0;
+}
+.CreditList .rank-info .detail-info .text_12 .color03 {
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    word-break: normal;
+    height: 19px;
+    vertical-align: sub;
+    overflow: hidden;
+}
+.lyleif {
+    height: 45px;
+    border-bottom: 1px solid #edf1f2;
+    text-align: center;
+    cursor: pointer;
+    color: #b5b9bc;
+    font-size: 14px;
+}
+.lyleif span {
+    margin-top: 10px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: rgba(60, 60, 60, 0.6);;
+    font-size: 12px;
+    font-weight: bold;
+}
+.lyleif:hover{
+    background: #e6eaec;
+}
+.lyleif:hover span{
+    color: #3c3c3c;
+}

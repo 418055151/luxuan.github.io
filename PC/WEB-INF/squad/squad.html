@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 企业大学 - 班级 </title>
+    <meta name="description" content="网站SEO描述">
+    <meta name="keywords" content="SEO收搜关键词">
+    <meta name="baidu-site-verification" content="qKSX5MEr35">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <script type="text/javascript" src="../../public/require.js"></script>
+    <script type="text/javascript" src="../../public/squad.js"></script>
+    <link rel="shortcut icon" href="http://bonzer.dichanxuetang.com/images/logo-icon.png">
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/loadingPanel.css">
+</head>
+<body>
+<div id="loadingPanel" style="opacity: 1;">
+    <div class="_loading__loading-page___1Ldla" style="opacity: 1;">
+        <div class="_loading__loading-page-detail___3BGux"></div>
+    </div>
+    <div id="loadingGif"></div>
+    <div id="loadingTips">
+        <div id="loadingTipsContent">
+            <div id="fontBlodDiv">hi：</div>
+            欢迎来到企业大学学习平台
+            <p>当前网络有可能会影响到加载速度哦还请耐心等候(*^__^*)……。</p>
+        </div>
+    </div>
+</div>
+<header class="common-header">
+    <ul id="top-nav">
+        <li class="logo">
+            <a class="logo-link" href="javascript:void(0);">
+                <div class="logo-icon"></div>
+            </a>
+        </li>
+        <li>
+            <a class="top-link" href="../index.html"><i class="icon-home"></i> 首页 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../curriculum/curriculum.html"> 海量课程 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../squad/squad.html"> 班级 </a>
+        </li>
+        <li>
+            <a class="top-link hot" href="../exam/exam.html"> 考试 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../CloudStorage/CloudStorage.html"> 网盘 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../comments/comments.html"> 线上讨论 </a>
+        </li>
+        <li class="sign" id="sign-box">
+            <a class="sign-link" id="signin" href="javascript:" rel="nofollow">登录</a>  /  <a class="sign-link" id="signup" href="javascript:" rel="nofollow">申请试用</a>
+        </li>
+        <div class="clearfix" id="userinfo" style="display: none">
+            <div class="user-header">
+                <img src="http://wx.qlogo.cn/mmopen/BKMVGMmthXGjszK1TNyTeQuoWlFM0Dzgz9QA8JQibusGRooll13iaFcthnKbibXya1Yyb7J3zVsicibdz6Ec7Rl012GbsicDuD4Jd6/132?0.6857810917594676">
+            </div>
+            <div class="user-info">™闪开，我要发光</div>
+            <ul class="dropdown-wrapper">
+                <li><a href="javascript:void(0);">我的账号</a></li>
+                <li><a href="javascript:void(0);">我的活动</a></li>
+                <li><a href="javascript:void(0);">我的订单</a></li>
+                <li><a href="javascript:void(0);">邀请朋友</a></li>
+                <li><a href="javascript:void(0);" class="none" id="logoutBtn">退出</a></li>
+            </ul>
+        </div>
+    </ul>
+    <div class="chunjie-ghxx"></div>
+    <div class="bannerCont">
+        <div class="slogan">
+            <div class="content"><h1 class="zh_CN">班级的实质就是让&nbsp;&nbsp;学员的潜能得到开发</h1></div>
+            <p class="header-desc">有目的丨有计划的丨有步骤的</p>
+        </div>
+    </div>
+</header>
+<section class="container clearfix">
+    <div class="wrapper padd-t40 clearfix">
+        <div class="l wenda-main" id="squadList"></div>
+        <div class="r wenda-slider">
+            <div class="rankingImg">
+                <img src="../../images/110125.jpg">
+            </div>
+            <div class="hot-ques">
+                <h3 class="title">热门课程</h3>
+                <div id="courselist"></div>
+                <div class="lyleif"><span class="js-lyleif">显示另外5个课程</span></div>
+            </div>
+            <div class="hot-ques">
+                <h3 class="title">学时Top10</h3>
+                <div id="SchoolRankings">
+                    <div class="SchoolRankings CreditList" id="Creditlist">
+
+                    </div>
+                    <div class="lyleif"><span class="js-lyleif">显示另外5个课程</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="Footer"></div>
+<script  type="text/x-handlebars-template" id="squadTemplate"></script>
+<script  type="text/x-handlebars-template" id="courseTemplate"></script>
+<script type="text/x-handlebars-template" id="CreditTemplate"></script>
+<script>
+    require(['jquery','squad']);
+</script>
+</body>
+</html>

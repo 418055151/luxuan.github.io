@@ -1,0 +1,37 @@
+<!--海量课程列表-->
+<div class="p-top-works__content u-intersection-vertical js-intersection-showing is-show">
+    {{#each this}}
+    <article class="p-top-works__content__item cardWorks cardWorks-image">
+        <a href="../squad/video_Play.html" class="cardWorks__inner js-link-works js-link-fluid">
+            <div class="continued">H5课程</div>
+            <div class="cardWorks__frame pcOnly">
+                <svg x="0px" y="0px" viewBox="0 0 900 644">
+                    <path d="M0,187.07V644H900V0H0V186.86H1V27A26,26,0,0,1,27,1H873a26,26,0,0,1,26,26V573a26,26,0,0,1-26,26H787.3c-10.6.3-24.4.9-32,2.1-18.9,3-28.5,11.1-38.8,22.7C696,647,671,647,650,623.7c-13.1-14.5-15.3-23.4-63.3-24.7H27A26,26,0,0,1,1,573V187.07Z"></path>
+                </svg>
+            </div>
+            <div class="cardWorks__image js-cardWorks-image">
+                <img src="../../images/loading.gif" width="640" height="480" data-original="{{image}}" alt="{{title}}" title="{{title}}">
+            </div>
+            <div class="cardWorks__text">
+                <p class="cardWorks__client" title="{{title}}">{{title}}</p>
+                <div class="clearfix course-card-bottom">
+                    <div class="course-card-info">
+                        <ul class="breadcrumb">
+                            <li><i class="icon-thumbs-up"></i><span>0</span></li>
+                            <li><i class="icon-thumbs-down"></i><span>0</span></li>
+                        </ul>
+                    </div>
+                    <div class="course-card-price"><i class="icon-user"></i><span class="lorder">661</span></div>
+                    <span class="course-star-box">
+                            <i class="icon-star on"></i>
+                            <i class="icon-star on"></i>
+                            <i class="icon-star on"></i>
+                            <i class="icon-star on"></i>
+                            <i class="icon-star on"></i>
+                        </span>
+                </div>
+            </div>
+        </a>
+    </article>
+    {{/each}}
+</div>

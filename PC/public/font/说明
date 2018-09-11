@@ -1,0 +1,3 @@
+font-awesome.min.css文件必须和font内字体文件放在同级目录下才会生效;
+font-awesome字体图标支持Bootstrap一起使用;
+font-awesome字体图标网站http://www.bootcss.com/p/font-awesome/所有引用图标均可在官网找到;

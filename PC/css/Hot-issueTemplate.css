@@ -1,0 +1,73 @@
+.hot-ques {
+    margin-bottom: 30px;
+}
+.hot-ques .title {
+    font-size: 16px;
+    color: #14191e;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.HotIssueList ul li{
+    padding: 6px 0;
+    border-bottom: 1px solid #edf1f2;
+}
+.HotIssueList li .content a {
+    font-size: 14px;
+    color: #333;
+    word-wrap: break-word;
+    text-align: left;
+    line-height: 20px;
+}
+.HotIssueList li .content a:hover{
+    text-decoration: underline;
+    color: #788087;
+}
+.HotIssueList li .info-bar {
+    height: 20px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+.HotIssueList li .info-bar a {
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    color: #b5b9bc;
+}
+.HotIssueList li .info-bar .answer-num {
+    margin-right: 30px;
+}
+.HotIssueList li .info-bar a>i{
+    margin-right: 5px;
+}
+.HotIssueList li .info-bar .from {
+    float: right;
+}
+.HotIssueList .height{
+    height: 305px;
+    display: block;
+    overflow: hidden;
+}
+
+.lyleif {
+    height: 45px;
+    border-bottom: 1px solid #edf1f2;
+    text-align: center;
+    cursor: pointer;
+    color: #b5b9bc;
+    font-size: 14px;
+}
+.lyleif span {
+    margin-top: 10px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: rgba(60, 60, 60, 0.6);;
+    font-size: 12px;
+    font-weight: bold;
+}
+.lyleif:hover{
+    background: #e6eaec;
+}
+.lyleif:hover span{
+    color: #3c3c3c;
+}

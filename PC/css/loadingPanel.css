@@ -1,0 +1,50 @@
+#loadingPanel {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+#loadingPanel.black {
+    background: #282828;
+}
+#loadingGif{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top:35%;
+    z-index: 999;
+    background: url("../images/loading_w.gif") 50% 0 no-repeat;
+    overflow: hidden;
+}
+
+#loadingGif.black {
+    background: url("../images/loading_b.gif") 50% 0 no-repeat;
+}
+
+#loadingTips{
+    position: fixed;
+    margin-top: 100px;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    font-family: Arial;
+}
+
+#loadingTipsContent{
+    margin: auto;
+    width:500px;
+    line-height: 24px;
+    text-align: center;
+}
+#fontBlodDiv{
+    font-weight: bold;
+    display: inline-block;
+}

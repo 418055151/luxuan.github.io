@@ -1,0 +1,1148 @@
+{
+  "seller": {
+    "message":{
+      "number":4,
+      "http":""
+    },
+    "home":{
+      "titlename": "企业大学",
+      "titleLeftIconType": false,
+      "headerNavType":true,
+      "titleLeftIcon": "",
+      "titleLeftUrl": "",
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-xiaoxi",
+      "footerNavType":true,
+      "banner":[
+        {
+          "img":"http://bpic.588ku.com/back_pic/03/70/72/5257b6c12d89875.jpg",
+          "http":"https://www.baidu.com/"
+        },
+        {
+          "img":"http://bpic.588ku.com/back_pic/03/72/92/6657b9a240d3d1f.jpg",
+          "http":"https://www.baidu.com/"
+        },
+        {
+          "img":"http://bpic.588ku.com/back_pic/04/89/00/9358f7236fd4294.jpg",
+          "http":"https://www.baidu.com/"
+        },
+        {
+          "img":"http://bpic.588ku.com/back_pic/04/88/89/4058f61f87c450a.jpg",
+          "http":"https://www.baidu.com/"
+        }
+      ],
+      "application": [
+        {
+          "type": true,
+          "name": "我的班级",
+          "color":"#03A9F4",
+          "newdata":false,
+          "iocn":"icon-13",
+          "http":"/team/team",
+          "id":1
+        },
+        {
+          "type": false,
+          "name": "我的选修",
+          "color":"#FF9800",
+          "newdata":false,
+          "iocn":"icon-pintu",
+          "http":"/myTake/myTake",
+          "id":2
+        },
+        {
+          "type": false,
+          "name": "考试",
+          "color":"#19C594",
+          "newdata":true,
+          "iocn":"icon-icon-kaoshijilu",
+          "http":"/examine/examine",
+          "id":3
+        },
+        {
+          "type": false,
+          "name": "讨论",
+          "color":"#F1745E",
+          "newdata":true,
+          "iocn":"icon-taolun",
+          "http":"/discuss/discuss",
+          "id":4
+        },
+        {
+          "type": false,
+          "name": "海量课程",
+          "color":"#5F97F4",
+          "newdata":false,
+          "iocn":"icon-hailiangxiansuo",
+          "http":"/totalcourse/totalcourse",
+          "id":5
+        },
+        {
+          "type": false,
+          "name": "精品课程包",
+          "color":"#9C89B9",
+          "newdata":false,
+          "iocn":"icon-kechengbiao",
+          "http":"/excellentCourse/excellentCourse",
+          "id":6
+        },
+        {
+          "type": false,
+          "name": "共享中心",
+          "color":"#F7B55D",
+          "newdata":false,
+          "iocn":"icon-tongyongleifenzugongxiang",
+          "http":"/cloudStorage/cloudStorage",
+          "id":7
+        },
+        {
+          "type": false,
+          "name": "学时排行",
+          "color":"#DBC714",
+          "newdata":false,
+          "iocn":"icon-jiangbei",
+          "http":"/ranking/ranking",
+          "id":8
+        }
+      ],
+      "offlineapplication":[
+        {
+          "type": false,
+          "name": "线下课签到",
+          "color":"#8BC34A",
+          "iocn":"icon-weixinsaoma",
+          "http":""
+        },
+        {
+          "type": false,
+          "name": "课程打分",
+          "color":"#50AAF0",
+          "iocn":"icon-pingfen",
+          "http":"/CourseGrade/CourseGrade"
+        },
+        {
+          "type": false,
+          "name": "问卷统计",
+          "color":"#F1745E",
+          "iocn":"icon-navicon-tjb",
+          "http":"/questionnaireStatistics/questionnaireStatistics"
+        },
+        {
+          "type": true,
+          "name": "进度反馈",
+          "color":"#349EEB",
+          "iocn":"icon-group47",
+          "http":"/feedbackProgress/feedbackProgress"
+        }
+      ]
+    },
+    "team":{
+      "titlename": "我的班级",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false,
+      "teamList":[
+        {
+          "name":"世界杯:西班牙2:2摩洛哥 凭进球优势小组第一出线",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"75%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"11岁四川男孩身高2.06米 或是全球最高小学生(图)",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"84%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"北京城市副中心将新增住房18万套 通勤不超半小时",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"43%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"中国古墓发现已灭绝长臂猿遗骸：秦始皇祖母宠物",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"71%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"山东防汛Ⅳ级预警升级为Ⅲ级预警",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"23%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"解局美防长马蒂斯任内首度访华“四大谜团”",
+          "teamtype":true,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"100%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"沙特超12万名女性提交驾照申请",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"77%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"何炅好脾气形象崩塌 开骂快乐大本营的导演",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"92%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"43岁蒋勤勤怀二胎拍大片，挺大肚化浓妆引热议",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"41%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        },
+        {
+          "name":"世界杯-C罗失点葡萄牙1-1送伊朗出局",
+          "teamtype":false,
+          "deadline":"2018-9-26",
+          "creationtime":"2018-6-26 09:19:52",
+          "creator":"管理员",
+          "creatorimg":"",
+          "progress":"53%",
+          "studentsList":[
+            {
+              "studentsName":"张铭",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"李世英",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"刘素霞",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"万贡献",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"杨兴文",
+              "studentsImg":""
+            },
+            {
+              "studentsName":"尚喜松",
+              "studentsImg":""
+            }
+          ]
+        }
+      ]
+    },
+    "teamCourse":{
+      "titlename": "班级课程详情",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/team/team",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false,
+      "teamCourseList":[
+        {
+          "name":"全面加强生态环境保护 坚决打好污染防治攻坚战",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"污染防治攻坚战",
+          "releasedate":"2018-6-24",
+          "praise":29,
+          "watch":782,
+          "progress":"31%"
+        },
+        {
+          "name":"打好脱贫攻坚“硬仗中的硬仗”",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"硬仗中的硬仗",
+          "releasedate":"2018-6-22",
+          "praise":329,
+          "watch":3782,
+          "progress":"87%"
+        },
+        {
+          "name":"习近平在中央外事工作会议上的重要讲话引热烈反响",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"习近平",
+          "releasedate":"2018-6-22",
+          "praise":829,
+          "watch":4782,
+          "progress":"100%"
+        },
+        {
+          "name":"破解人类共同挑战的“金钥匙” 中国扶贫启迪世界",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"金钥匙",
+          "releasedate":"2018-6-20",
+          "praise":29,
+          "watch":42,
+          "progress":"10%"
+        },
+        {
+          "name":"国际锐评：十年前拯救他们，今天他们过河拆桥",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"国际锐评",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":4912,
+          "progress":"90%"
+        },
+        {
+          "name":"7月新规：养老金迎来新制度 老有所养更安心",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"7月新规",
+          "releasedate":"2018-6-19",
+          "praise":69,
+          "watch":912,
+          "progress":"20%"
+        },
+        {
+          "name":"全国首例!西安暂停企事业单位买住房,有何考虑?",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"全国首例",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"44%"
+        },
+        {
+          "name":"黄淮江淮等地有强降雨 江南华南部分地区有高温天气",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"高温天气",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"67%"
+        },
+        {
+          "name":"土耳其总统大选：埃尔多安获超半数选票赢得连任",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"土耳其大选",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"3%"
+        },
+        {
+          "name":"习近平外交思想引领中国特色大国外交新局面",
+          "images":"./assets/img/casecover.png",
+          "teacher":"习近平",
+          "releasedate":"2018-6-25",
+          "praise":213,
+          "watch":1982,
+          "progress":"75%"
+        }
+      ]
+    },
+    "myTake":{
+      "titlename": "我的选修",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false,
+      "myTakeList":[
+        {
+          "name":"习近平外交思想引领中国特色大国外交新局面",
+          "images":"./assets/img/casecover.png",
+          "teacher":"习近平",
+          "releasedate":"2018-6-25",
+          "praise":213,
+          "watch":1982,
+          "progress":"75%"
+        },
+        {
+          "name":"全面加强生态环境保护 坚决打好污染防治攻坚战",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"污染防治攻坚战",
+          "releasedate":"2018-6-24",
+          "praise":29,
+          "watch":782,
+          "progress":"31%"
+        },
+        {
+          "name":"打好脱贫攻坚“硬仗中的硬仗”",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"硬仗中的硬仗",
+          "releasedate":"2018-6-22",
+          "praise":329,
+          "watch":3782,
+          "progress":"87%"
+        },
+        {
+          "name":"习近平在中央外事工作会议上的重要讲话引热烈反响",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"习近平",
+          "releasedate":"2018-6-22",
+          "praise":829,
+          "watch":4782,
+          "progress":"100%"
+        },
+        {
+          "name":"破解人类共同挑战的“金钥匙” 中国扶贫启迪世界",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"金钥匙",
+          "releasedate":"2018-6-20",
+          "praise":29,
+          "watch":42,
+          "progress":"10%"
+        },
+        {
+          "name":"国际锐评：十年前拯救他们，今天他们过河拆桥",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"国际锐评",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":4912,
+          "progress":"90%"
+        },
+        {
+          "name":"7月新规：养老金迎来新制度 老有所养更安心",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"7月新规",
+          "releasedate":"2018-6-19",
+          "praise":69,
+          "watch":912,
+          "progress":"20%"
+        },
+        {
+          "name":"全国首例!西安暂停企事业单位买住房,有何考虑?",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"全国首例",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"44%"
+        },
+        {
+          "name":"黄淮江淮等地有强降雨 江南华南部分地区有高温天气",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"高温天气",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"67%"
+        },
+        {
+          "name":"土耳其总统大选：埃尔多安获超半数选票赢得连任",
+          "images":"../../../assets/img/casecover.png",
+          "teacher":"土耳其大选",
+          "releasedate":"2018-6-19",
+          "praise":269,
+          "watch":312,
+          "progress":"3%"
+        }
+      ]
+    },
+    "mine":{
+      "headerNavType":true,
+      "titlename": false,
+      "titleLeftIconType": false,
+      "titleLeftIcon": "",
+      "titleLeftUrl": "",
+      "titleRightIconType": false,
+      "titleRightIcon": "icon-xiaoxi",
+      "footerNavType":true,
+      "username":"欧尼酱",
+      "userimg":"http://thirdqq.qlogo.cn/g?b=sdk&k=yIJVd1no0g4RUxhxRVia03w&s=140&t=1484889723",
+      "department":"技术部",
+      "account":"188*****408",
+      "userID":"034"
+    },
+    "examine":{
+      "titlename": "考试",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false,
+      "examineList":[
+        {
+          "name":"习近平外交思想中的“和”与“合”",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1000
+        },{
+          "name":"攻坚中之坚！习近平发出脱贫“总动员令”",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1000
+        },{
+          "name":"图解| 污染防治攻坚战应该这样打",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1003
+        },{
+          "name":"关于中朝关系，习近平说了三个“不会变”",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1000
+        },{
+          "name":"中美经贸磋商双方一度取得成果 但美方反复无常",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1002
+        },{
+          "name":"发改委国民经济综合司负责人:高质量发展开局良好",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1002
+        },{
+          "name":"好消息!三大运营商宣布7月1日起取消流量“漫游”费",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1002
+        },{
+          "name":"“一带一路”大型网络主题活动福建站启动",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1003
+        },{
+          "name":"《北京城市副中心控制性详细规划(街区层面)》草案公布",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1002
+        },{
+          "name":"本轮成品油或踩线下调 加满一箱汽油将少花约2元",
+          "startTime":"2018-4-23 09:54:39",
+          "endTime":"2018-4-23 19:54:39",
+          "fullmark":100,
+          "ThroughPoints":60,
+          "examineType":1004
+        }
+      ]
+    },
+    "testPaper":{
+      "titlename": "不限时考试",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/examine/examine",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false
+    },
+    "discuss":{
+      "titlename": "讨论",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false,
+      "discussList":[
+        {
+          "code":"12",
+          "portrait":"http://thirdqq.qlogo.cn/g?b=sdk&k=yIJVd1no0g4RUxhxRVia03w&s=140&t=1484889723",
+          "name":"酱",
+          "releasetime":"04-18",
+          "readTheNumber":"234",
+          "itemtitle":"由于新功能的不断增加,墨刀内对应的快捷键也在变化着,兔老师今天重新梳理了一下墨刀中常用的小窍门,了解它、掌握它,工作效率会更高哟! 墨刀小窍门一: 让组件...",
+          "itemintroduce":"掌握它,工作效率会更高哟! 墨刀小窍门一更高哟掌握它,工作效率会更高哟! 墨刀小窍门一更高哟! 墨刀小组件...",
+          "delineatefigure":[
+            "https://bpic.588ku.com/element_banner/20/18/05/f8c5ff836c8b879d0ccff20c525fc613.jpg",
+            "https://bpic.588ku.com/special_image/18/06/04/08b56e29daec969f2eac74e6bcce9996.jpg",
+            "https://bpic.588ku.com/special_image/18/06/01/6748831f2e67c889637b6d4f091343c9.jpg"
+          ],
+          "from":"企业大学",
+          "comments":"18"
+        },
+        {
+          "code":"32",
+          "portrait":"https://bpic.588ku.com/element_banner/20/18/06/5b6b7ede5528e903d66ce72bf726e5db.jpg",
+          "name":"欧尼酱",
+          "releasetime":"03-18",
+          "readTheNumber":"1134",
+          "itemtitle":"由于新功能的不断增加,墨刀内对应的快捷键也在变化着,兔老师今天重新梳理了一下墨刀中常用的小窍门,了解它、掌握它,工作效率会更高哟! 墨刀小窍门一: 让组件...",
+          "itemintroduce":"掌握它,工作效率会更高哟! 墨刀小窍门一更高哟掌握它,工作效率会更高哟! 墨刀小窍门一更高哟! 墨刀小组件...",
+          "delineatefigure":[],
+          "from":"事业部",
+          "comments":"978"
+        },
+        {
+          "code":"13",
+          "portrait":"http://thirdqq.qlogo.cn/g?b=sdk&k=yIJVd1no0g4RUxhxRVia03w&s=140&t=1484889723",
+          "name":"欧尼酱",
+          "releasetime":"05-01",
+          "readTheNumber":"2234",
+          "itemtitle":"由于新功能的不断增加,墨刀内对应的快捷键也在变化着,兔老师今天重新梳理了一下墨刀中常用的小窍门,了解它、掌握它,工作效率会更高哟! 墨刀小窍门一: 让组件...",
+          "itemintroduce":"掌握它,工作效率会更高哟! 墨刀小窍门一更高哟掌握它,工作效率会更高哟! 墨刀小窍门一更高哟! 墨刀小组件...",
+          "delineatefigure":[
+            "https://bpic.588ku.com/element_banner/20/18/05/1fb10a646f53f3704f5631e95869f6b7.jpg"
+          ],
+          "from":"技术部",
+          "comments":"298"
+        },
+        {
+          "code":"12",
+          "portrait":"https://bpic.588ku.com/element_banner/20/18/06/90fba943a8798245405a4a54c6ea5585.jpg",
+          "name":"欧尼酱",
+          "releasetime":"06-18",
+          "readTheNumber":"223",
+          "itemtitle":"由于新功能的不断增加,墨刀内对应的快捷键也在变化着,兔老师今天重新梳理了一下墨刀中常用的小窍门,了解它、掌握它,工作效率会更高哟! 墨刀小窍门一: 让组件...",
+          "itemintroduce":"掌握它,工作效率会更高哟! 墨刀小窍门一更高哟掌握它,工作效率会更高哟! 墨刀小窍门一更高哟! 墨刀小组件...",
+          "delineatefigure":[
+            "https://bpic.588ku.com/element_banner/20/18/06/90fba943a8798245405a4a54c6ea5585.jpg",
+            "https://bpic.588ku.com/element_banner/20/18/06/5b6b7ede5528e903d66ce72bf726e5db.jpg"
+          ],
+          "from":"研发不",
+          "comments":"98"
+        }
+      ]
+    },
+    "totalcourse":{
+      "titlename": "海量课程",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-search",
+      "footerNavType":false,
+      "totalcourseList":[
+        {
+          "coursename":"特朗普五连“推”怒怼哈雷公司：以后卖回美国需",
+          "courseimg":"",
+          "coursetime":"2018-6-27 16:11:55",
+          "coursetype":true,
+          "coursetake":1001
+        },{
+          "coursename":"哈雷摩托拟将部分生产移出美国 欧盟：美保护主",
+          "courseimg":"",
+          "coursetime":"2018-6-17 16:11:55",
+          "coursetype":false,
+          "coursetake":1000
+        },
+        {
+          "coursename":"长二丙火箭成功发射新技术试验双星",
+          "courseimg":"",
+          "coursetime":"2018-3-01 16:11:55",
+          "coursetype":true,
+          "coursetake":1000
+        },
+        {
+          "coursename":"外媒:C919研制时间缩短2年 与787和A350",
+          "courseimg":"",
+          "coursetime":"2018-6-27 16:11:55",
+          "coursetype":true,
+          "coursetake":1001
+        },
+        {
+          "coursename":"韩提议送还在华川水葬志愿军遗骸 2.4万人系韩夸大",
+          "courseimg":"",
+          "coursetime":"2018-3-07 16:11:55",
+          "coursetype":false,
+          "coursetake":1000
+        },
+        {
+          "coursename":"中国将调整原产于孟加拉国、印度等国家的进口货物关税",
+          "courseimg":"",
+          "coursetime":"2018-2-12 16:11:55",
+          "coursetype":false,
+          "coursetake":1001
+        },
+        {
+          "coursename":"99岁老人与妻子失联4年 有生之年再见面看哭所有人",
+          "courseimg":"",
+          "coursetime":"2018-1-27 16:11:55",
+          "coursetype":true,
+          "coursetake":1001
+        },
+        {
+          "coursename":"美5月非法移民家庭数较同期倍增 移民儿童数也增加",
+          "courseimg":"",
+          "coursetime":"2018-12-27 16:11:55",
+          "coursetype":false,
+          "coursetake":1000
+        },
+        {
+          "coursename":"GIF-罗霍破门 阿根廷2-1尼日利亚",
+          "courseimg":"",
+          "coursetime":"2018-6-27 16:11:55",
+          "coursetype":true,
+          "coursetake":1000
+        },
+        {
+          "coursename":"美国要求各方全面停止进口伊朗石油，唯独中国不从",
+          "courseimg":"",
+          "coursetime":"2018-6-27 16:11:55",
+          "coursetype":true,
+          "coursetake":1001
+        }
+      ]
+    },
+    "videoPlay":{
+      "titlename": "视频播放",
+      "headerNavType":false,
+      "titleLeftIconType": false,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/teamCourse/teamCourse",
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "topicdetails":{
+      "titlename": "讨论详情",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/discuss/discuss",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "editingProblems":{
+      "titlename": "发表话题",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/discuss/discuss",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "cloudStorage":{
+      "titlename": "共享中心",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false
+    },
+    "ranking":{
+      "titlename": "学时排行",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": true,
+      "titleRightIcon": "icon-gengduo",
+      "footerNavType":false,
+      "rankingList":[
+        {
+          "name":"燕静",
+          "department":"杭州区域中心",
+          "ranking":1,
+          "learningTime":1476
+        },
+        {
+          "name":"晓晓",
+          "department":"杭州区域中心",
+          "ranking":2,
+          "learningTime":976
+        },
+        {
+          "name":"gemi",
+          "department":"市场部",
+          "ranking":3,
+          "learningTime":871
+        },
+        {
+          "name":"concon",
+          "department":"市场部",
+          "ranking":4,
+          "learningTime":775
+        },
+        {
+          "name":"houge",
+          "department":"市场部",
+          "ranking":5,
+          "learningTime":750
+        },
+        {
+          "name":"zhuzhu",
+          "department":"商务助理",
+          "ranking":6,
+          "learningTime":698
+        },
+        {
+          "name":"燕静",
+          "department":"杭州区域中心",
+          "ranking":7,
+          "learningTime":640
+        },
+        {
+          "name":"燕静",
+          "department":"杭州区域中心",
+          "ranking":8,
+          "learningTime":621
+        },
+        {
+          "name":"燕静",
+          "department":"杭州区域中心",
+          "ranking":9,
+          "learningTime":601
+        },
+        {
+          "name":"燕静",
+          "department":"杭州区域中心",
+          "ranking":10,
+          "learningTime":480
+        }
+      ]
+    },
+    "excellentCourse":{
+      "titlename": "精品课程包",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "excellentCourseList":{
+      "titlename": "精品课程包列表",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/excellentCourse/excellentCourse",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "CourseGrade":{
+      "titlename": "课程打分",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "CourseGradeList":{
+      "titlename": "课程打分表单页",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/CourseGrade/CourseGrade",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "questionnaireStatistics":{
+      "titlename": "问卷统计",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "questionnaireShow":{
+      "titlename": "线下课程提交进度统计",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/questionnaireStatistics/questionnaireStatistics",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "feedbackProgress":{
+      "titlename": "线下课程反馈进度查询",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/index/home",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    },
+    "feedbackProgressShow":{
+      "titlename": "线下课程反馈进度统计",
+      "titleLeftIconType": true,
+      "titleLeftIcon": "icon-zuo",
+      "titleLeftUrl": "/feedbackProgress/feedbackProgress",
+      "headerNavType":true,
+      "titleRightIconType": false,
+      "titleRightIcon": "",
+      "footerNavType":false
+    }
+  }
+}

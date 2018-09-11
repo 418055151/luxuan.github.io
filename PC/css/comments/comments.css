@@ -1,0 +1,337 @@
+header.common-header{
+    position: relative!important;
+    background: url(../../images/a98eac557e1f.png) no-repeat center center!important;
+    background-size: cover!important;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.bannerCont{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 490px;
+}
+.slogan {
+    position: absolute;
+    top: 40%;
+    left: 1rem;
+    right: 1rem;
+    color: #787878;
+    text-align: center;
+    margin: -5rem 0 0;
+}
+.slogan {
+    font-family: "Helvetica Light";
+    margin: 0;
+    top: 40%;
+    transform: translateY(-25%);
+}
+.content {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.slogan .content {
+    max-width: 580px;
+}
+.slogan h1 {
+
+    margin: 0;
+    padding: 0;
+}
+.slogan h1 {
+    font-size: 32px;
+    line-height: 45px;
+    color: #240101;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: "Helvetica Light";
+}
+
+.searchBox {
+    background: none;
+    border-radius: 6px;
+    position: relative;
+    border: 4px solid rgba(0, 0, 0, 0.05);
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+}
+.searchBoxInner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 6px;
+}
+#searchInput {
+    background-size: 16px 16px;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Light";
+    color: #b3becd;
+    font-size: 14px;
+    line-height: 48px;
+    border: 0 none;
+    background: none;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 55px;
+}
+#searchSubmit {
+    width: 18px;
+    height: 18px;
+    background: url(../../images/shps.png) no-repeat;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 18px;
+    border: 0 none;
+    cursor: pointer;
+}
+
+
+.header-desc {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #787878;
+}
+section.container{
+    background: white;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.padd-t40{
+    padding-top: 40px;
+    padding-bottom: 48px;
+}
+.wenda-main{
+    /*background: #fff;*/
+}
+.wenda-main {
+    width: 800px;
+    padding: 0 0 48px;
+    margin-right: 48px;
+}
+.wenda-slider {
+    width: 350px;
+    min-height: 470px;
+}
+
+.nav {
+    padding: 24px;
+    border-bottom: 1px solid #D9DDE1;
+}
+.nav a {
+    font-size: 16px;
+    color: #93999F;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 50px;
+}
+.nav a:hover {
+    color: #14191e;
+}
+.nav a.active {
+    color: #f01414;
+}
+.issue-list, .issue-list .issue-box {
+    width: 100%;
+}
+.issue-box{
+    padding-bottom: 20px;
+}
+.issue-box .issue-item {
+    position: relative;
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D9DDE1;
+}
+.issue-box .issue-item .issue-content {
+    width: 752px;
+}
+.issue-box .issue-item .issue-content .issue-title {
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: #07111B;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+.issue-box .issue-item .issue-content .issue-title a:hover{
+    text-decoration: underline;
+    color: #788087;
+}
+.issue-box .issue-item .issue-content .issue-desc {
+    height: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #4D555D;
+    line-height: 24px;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.issue-box .issue-item .issue-content .detail-box {
+    margin-top: 2px;
+    width: 100%;
+    font-size: 12px;
+    color: #93999F;
+    line-height: 28px;
+    font-weight: 400;
+}
+.issue-box .issue-item .issue-content .detail-box .left-detail span {
+    margin-right: 24px;
+}
+.issue-box .issue-item .issue-content .detail-box .left-detail span:last-child {
+    margin-right: 0;
+}
+.issue-box .issue-item .issue-content .detail-box .right-guest .guest-box, .tag-pop ul span {
+    margin-left: 10px;
+}
+.issue-box .issue-item .issue-content .detail-box .right-guest .guest {
+    display: block;
+}
+.issue-box .issue-item .issue-content .detail-box .right-guest .guest img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.left-detail{
+    margin-top: 5px;
+}
+.js-usercard-box{
+    margin-top: 5px;
+}
+.itemcontent{
+    margin-top: 2px;
+    text-align: right;
+}
+.itemcontent p{
+    line-height: 28px;
+    width: 143px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    word-break: normal;
+    color: #B6B6B6;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+
+.recommend-info {
+    background: #FFF;
+    box-shadow: 0 4px 18px 0px rgba(7,17,27,.15);
+    border-radius: 8px;
+    margin-bottom: 55px;
+}
+.recommend-info .aside-author {
+    padding: 36px;
+    word-break: break-all;
+    text-align: center;
+}
+.recommend-info .aside-author .author-img {
+    width: 96px;
+    margin: 0 92px;
+}
+.recommend-info .aside-author .author-img img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.recommend-info .aside-author .u-nick-warp {
+    width: 100%;
+    font-size: 16px;
+    color: #4D555D;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+.recommend-info .aside-author .u-nick-warp .nick {
+    color: #4D555D;
+    line-height: 20px;
+    width: 200px;
+    word-wrap: break-word;
+}
+.recommend-info .aside-author .user-job {
+    display: block;
+    font-size: 12px;
+    color: #93999F;
+    line-height: 12px;
+    margin-bottom: 16px;
+}
+.recommend-info .btn-box {
+    width: 100%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.recommend-info .btn-box .article-num,.recommend-info .btn-box .article-recom {
+    width: 50%;
+    display: inline-block;
+    font-size: 16px;
+    color: #4D555D;
+    line-height: 24px;
+    font-weight: 200;
+}
+.recommend-info .btn-box .r-bor {
+    border-right: 1px solid #d9dde1;
+}
+.askQuestionsBtn{
+    width: 125px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #f01414;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.askQuestionsBtn i{
+    padding-left: 5px;
+}
+
+
+/*课程排行*/
+
+.hot-ques{
+    margin-bottom: 30px;
+}
+.hot-ques .title {
+    font-size: 16px;
+    color: #14191e;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+#courselist{
+    margin-top: 5px;
+}
+#courselist ul.courselist{
+    height: 505px;
+    overflow: hidden;
+}

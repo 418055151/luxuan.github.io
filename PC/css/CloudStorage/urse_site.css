@@ -1,0 +1,130 @@
+.grid-view-item{
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ebebeb;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #FFF;
+}
+.grid-view-item:hover {
+    background: #F0F8FD;
+}
+.fileicon .thumb{
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 52px;
+    top: 11px;
+}
+.fileicon .MP4{
+    background: url(../../images/MP4.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .Text{
+    background: url(../../images/Text.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .MP3{
+    background: url(../../images/MP3.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .PDF{
+    background: url(../../images/PDF.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .PPT{
+    background: url(../../images/PPT.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .XLSX{
+    background: url(../../images/xls.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .Excel{
+    background: url(../../images/Excel.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .word{
+    background: url(../../images/word.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .pngjpg{
+    background: url(../../images/PNG.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .JPG{
+    background: url(../../images/JPG.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.fileicon .JPGE{
+    background: url(../../images/JPGE.png) no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.file-name {
+    padding-left: 70px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 38px;
+}
+.file-name {
+    width: 50%;
+    float: left;
+}
+.filename {
+    color: #000;
+    text-decoration: none;
+    font: 12px/1.5 tahoma, arial, "宋体" !important;
+}
+.file-nameDX {
+    width: 18%;
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+.file-nameSJ {
+    width: 12%;
+    padding-left: 10px;
+    display: block;
+    float: left;
+}
+.file-name a:hover,.file-nameSJ a:hover{
+    color: #0097fe;
+    text-decoration: underline;
+}
+.downloadBtn,.deleteBtn{
+    display: none;
+}
+.file-time{
+    width: 20%;
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+.file-time a{
+    font-size: 12px;
+}

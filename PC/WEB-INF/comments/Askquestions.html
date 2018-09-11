@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 企业大学 - 在线讨论 </title>
+    <meta name="description" content="网站SEO描述">
+    <meta name="keywords" content="SEO收搜关键词">
+    <meta name="baidu-site-verification" content="qKSX5MEr35">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <script type="text/javascript" src="../../public/require.js"></script>
+    <script type="text/javascript" src="../../public/comments.js"></script>
+    <link rel="shortcut icon" href="http://bonzer.dichanxuetang.com/images/logo-icon.png">
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/loadingPanel.css">
+
+
+
+
+
+
+    <link href="../../public/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../../public/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../../public/umeditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../../public/umeditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="../../public/umeditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" src="../../public/lib/comments/umeditor.js"></script>
+</head>
+<body>
+<div id="loadingPanel" style="opacity: 1;">
+    <div class="_loading__loading-page___1Ldla" style="opacity: 1;">
+        <div class="_loading__loading-page-detail___3BGux"></div>
+    </div>
+    <div id="loadingGif"></div>
+    <div id="loadingTips">
+        <div id="loadingTipsContent">
+            <div id="fontBlodDiv">hi：</div>
+            欢迎来到企业大学学习平台
+            <p>当前网络有可能会影响到加载速度哦还请耐心等候(*^__^*)……。</p>
+        </div>
+    </div>
+</div>
+<header class="common-header">
+    <ul id="top-nav">
+        <li class="logo">
+            <a class="logo-link" href="javascript:void(0);">
+                <div class="logo-icon"></div>
+            </a>
+        </li>
+        <li>
+            <a class="top-link" href="../index.html"><i class="icon-home"></i> 首页 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../curriculum/curriculum.html"> 海量课程 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../squad/squad.html"> 班级 </a>
+        </li>
+        <li>
+            <a class="top-link hot" href="../exam/exam.html"> 考试 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../CloudStorage/CloudStorage.html"> 网盘 </a>
+        </li>
+        <li>
+            <a class="top-link" href="../comments/comments.html"> 线上讨论 </a>
+        </li>
+        <li class="sign" id="sign-box">
+            <a class="sign-link" id="signin" href="javascript:" rel="nofollow">登录</a>  /  <a class="sign-link" id="signup" href="javascript:" rel="nofollow">申请试用</a>
+        </li>
+        <div class="clearfix" id="userinfo" style="display: none">
+            <div class="user-header">
+                <img src="http://wx.qlogo.cn/mmopen/BKMVGMmthXGjszK1TNyTeQuoWlFM0Dzgz9QA8JQibusGRooll13iaFcthnKbibXya1Yyb7J3zVsicibdz6Ec7Rl012GbsicDuD4Jd6/132?0.6857810917594676">
+            </div>
+            <div class="user-info">™闪开，我要发光</div>
+            <ul class="dropdown-wrapper">
+                <li><a href="javascript:void(0);">我的账号</a></li>
+                <li><a href="javascript:void(0);">我的活动</a></li>
+                <li><a href="javascript:void(0);">我的订单</a></li>
+                <li><a href="javascript:void(0);">邀请朋友</a></li>
+                <li><a href="javascript:void(0);" class="none" id="logoutBtn">退出</a></li>
+            </ul>
+        </div>
+    </ul>
+    <div class="chunjie-ghxx"></div>
+    <div class="bannerCont">
+        <div class="slogan">
+            <div class="content"><h1 class="zh_CN">问题不在于学到的是怎样的知识</br>而在于所学的知识要有用处</h1></div>
+            <p class="header-desc">分享知识丨交换观念丨交流信息</p>
+            <div class="searchBox">
+                <div class="searchBoxInner">
+                    <input id="searchInput" type="search" onkeydown="keyDown(event)" name="query" placeholder="请输入感兴趣的关键词" autocomplete="off">
+                    <button type="submit" id="searchSubmit" onclick="queries()"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="container clearfix">
+    <div class="wrapper padd-t40 clearfix">
+        <div class="l wenda-main">
+            <div class="sucesspage">
+                <h2 class="new-save-title">提问</h2>
+                <div class="inputques">
+                    <div class="quesdetail clearfix">
+                        <span class="ques-label first-label">*</span>
+                        <div class="question-area">
+                            <input type="text" id="ques-title" class="ipt autocomplete" maxlength="255" name="title" placeholder="请一句话说明你的问题，以问号结尾">
+                            <p class="errortip">标题不能少于5个汉字！</p>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div id="btns">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button class="btn" unselected="on" onclick="getAllHtml()">获得整个html的内容</button>&nbsp;
+                                        <button class="btn" onclick="getContent()">获得内容</button>&nbsp;
+                                        <button class="btn" onclick="setContent()">写入内容</button>&nbsp;
+                                        <button class="btn" onclick="setContent(true)">追加内容</button>&nbsp;
+                                        <button class="btn" onclick="getContentTxt()">获得纯文本</button>&nbsp;
+                                        <button class="btn" onclick="getPlainTxt()">获得带格式的纯文本</button>&nbsp;
+                                        <button class="btn" onclick="hasContent()">判断是否有内容</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="btn" onclick="setFocus()">编辑器获得焦点</button>&nbsp;
+                                        <button class="btn" onmousedown="isFocus();return false;">编辑器是否获得焦点</button>&nbsp;
+                                        <button class="btn" onclick="doBlur()">编辑器取消焦点</button>&nbsp;
+                                        <button class="btn" onclick="insertHtml()">插入给定的内容</button>&nbsp;
+                                        <button class="btn" onclick="getContentTxt()">获得纯文本</button>&nbsp;
+                                        <button class="btn" id="enable" onclick="setEnabled()">可以编辑</button>&nbsp;
+                                        <button class="btn" onclick="setDisabled()">不可编辑</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="btn" onclick="UM.getEditor('myEditor').setHide()">隐藏编辑器</button>&nbsp;
+                                        <button class="btn" onclick="UM.getEditor('myEditor').setShow()">显示编辑器</button>&nbsp;
+                                        <button class="btn" onclick="UM.getEditor('myEditor').setHeight(300)">设置编辑器的高度为300</button>&nbsp;
+                                        <button class="btn" onclick="UM.getEditor('myEditor').setWidth(1200)">设置编辑器的宽度为1200</button>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <button class="btn" onclick="createEditor()"/>创建编辑器</button>
+                                    <button class="btn" onclick="deleteEditor()"/>删除编辑器</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div>
+                            <h3 id="focush2"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="quesdetail mbottom">
+                    <span class="ques-label">&nbsp;</span>
+                    <div class="editor clearfix">
+                        <script type="text/plain" id="myEditor" style="width:770px;height:321px;"><p>这里我可以写一些输入提示</p></script>
+
+                    </div>
+                </div>
+                <div class="saveques-bottom clearfix">
+                    <a href="javascript:void(0);" id="ques-submit-btn" class="r link-btn ">发布</a>
+                </div>
+            </div>
+        </div>
+        <div class="r wenda-slider">
+            <div class="panel-body">
+                <h1><i class="icon-warning-sign"></i>提问注意事项</h1>
+                <dl>
+                    <dd>1、您是来解决问题？请先搜索是否已经有同类问题吧。这样您就省心少打字。</dd>
+                    <dd>2、没找到是么？就在发问题时精确描述你的问题，不要写与问题无关的内容；</dd>
+                    <dd>3、讨论更热衷于解达您想要的答案。能引起思考和讨论的知识性问题；</dd>
+                    <dt>问答禁止这些提问</dt>
+                    <dd>1、禁止发布求职、交易、推广、广告类与问答无关信息将一律清理。</dd>
+                    <dd>2、尽可能详细描述您的问题，如标题与内容不符，或与问答无关的信息将被删除。</dd>
+                    <dd>3、在言论自由的同事请不要讨论敏感问题</dd>
+                    <dd>4、严禁讨论违反国家法律，扰乱公共秩序，煽风点火，诽谤他人的相关信息</dd>
+                    <dd>5、问答刷屏的学员一律冻结帐号</dd>
+                </dl>
+            </div>
+            <div class="hot-ques">
+                <h3 class="title">热门课程</h3>
+                <div id="courselist">
+                </div>
+                <div class="lyleif"><span class="js-lyleif">显示另外5个课程</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="Footer"></div>
+<!--热门课程-->
+<script  type="text/x-handlebars-template" id="courseTemplate"></script>
+<!--分页-->
+<script type="text/x-handlebars-template" id="PagContTemplate"></script>
+<script>
+    require(['jquery','Askquestions']);
+</script>
+</body>
+</html>

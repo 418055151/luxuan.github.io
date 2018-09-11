@@ -1,0 +1,31 @@
+<!--学时排行榜-->
+<ul class="Examination height">
+    {{#each this}}
+    <li class="clearfix {{#iftime @index}}active{{/iftime}} {{#magbtm @index}}mag-btm50{{/magbtm}}">
+        <span class="num">{{number @index}}</span>
+        <div class="rank-info">
+            <div class="summary">
+                <span class="gray3 ellipsis" title="{{title}}">{{title}}</span>
+                <span class="gray9 ellipsis">{{subtitle}}</span>
+                <span class="gray12"><span class="color03">{{timespan}}</span></span>
+            </div>
+            <div class="detail">
+                <div class="avatar-wrap fl">
+                    <img src="{{image}}" style="width: 61px;height: 61px">
+                </div>
+                <div class="detail-info fl">
+                    <a href="javascript:void(0);" title="{{title}}">
+                        <p class="ellipsis" style="width: 120px">{{title}}</p>
+                    </a>
+                    <p class="text_12 ellipsis" title="{{subtitle}}">
+                        部门：<span>{{subtitle}}</span>
+                    </p>
+                    <p class="text_12 poars">
+                        <span class="color03">{{timespan}}</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </li>
+    {{/each}}
+</ul>

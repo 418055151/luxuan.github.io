@@ -1,0 +1,10 @@
+<!--分页-->
+<div class="pagination">
+    {{#each this}}
+    {{#if cur}}<span class="current">{{{text}}}</span>{{/if}}
+    {{#if prevPage}}<span class="disabled">{{{text}}}</span>{{/if}}
+    {{#if omit}}<span>{{{text}}}</span>{{/if}}
+    {{#if nextPage}}<span class="disabled">{{{text}}}</span>{{/if}}
+    {{#if clickable}}<a href="javascript:void(0);" data-pagCode="{{index}}" class="tcdNumber">{{{text}}}</a>{{/if}}
+    {{/each}}
+</div>

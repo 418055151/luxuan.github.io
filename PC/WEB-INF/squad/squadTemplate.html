@@ -1,0 +1,27 @@
+<!--班级列表-->
+<ul>
+    {{#each this}}
+    <li class="activity_list_item l">
+        <a href="javascript:void(0);" class="black">
+            <div class="activity_img">
+                <img src="{{image}}">
+            </div>
+            <p class="activity_list_item_row1">
+                <a href="MyGroupCourse.html" class="login_url">
+                    <span class="activity_name" title="{{title}}">{{title}}</span>
+                </a>
+                <a href="MyGroupCourse.html" class="activity_status activity_status_on">
+                    进行中
+                </a>
+            </p>
+            <div class="process-ctn">
+                <div class="process-full">
+                    <div class="process-done" style="width: 80%;"></div>
+                </div>
+                <span class="process-text">已学习80%</span>
+            </div>
+            <p class="activity_description">2017-07-15前完成</p>
+        </a>
+    </li>
+    {{/each}}
+</ul>
